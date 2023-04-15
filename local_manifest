@@ -2,9 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/begonia/g" name="Lehkeda/android_device_xiaomi_begonia.git" remote="github" revision="lineage-18.1" />
- <project path="device/begonia/SM6150-common" name="Lehkeda/android_device_xiaomi_begonia/blob/lineage-16/board-info.txt" remote="github" revision="lineage-18.1" />
- <project path="vendor/begonia" name="Lehkeda/android_device_xiaomi_begonia/blob/lineage-16/vendor_prop.mk" remote="github" revision="master" />
- <project path="kernel/begonia" name="Lehkeda/android_device_xiaomi_begonia/blob/lineage-16/kernel" remote="github" revision="lineage-18.1" />
+ <project path="device/10or/G" name="RahulPalXDA/android_device_10or_G.git" remote="github" revision="lineage-18.1" />
+ <project path="device/10or/msm8953-common" name="RahulPalXDA/android_device_10or_msm8953-common.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor/10or" name="RahulPalXDA/android_vendor_10or.git" remote="github" revision="master" />
+ <project path="kernel/10or/G" name="10orDevs/android_kernel_10or_G-4.9.git" remote="github" revision="lineage-18.1" />
  
 </manifest>
