@@ -2,8 +2,8 @@
 <manifest>
 
  <!-- Trees -->
-<project path="device/xiaomi/begonia" name="PixelExperience-Devices/device_xiaomi_begonia.git" remote="github" revision="eleven" />
-<project path="device/xiaomi/begonia-kernel" name="PixelExperience-Devices/kernel_xiaomi_begonia.git" remote="github" revision="eleven" />
-<project path="vendor/xiaomi/begonia" name="PixelExperience-Devices/vendor_xiaomi_begonia.git" remote="github" revision="eleven" />
+<project path="device/xiaomi/begonia" name="PixelExperience-Devices/device_xiaomi_begonia.git" remote="github" revision="thirteen" />
+<project path="device/xiaomi/begonia-kernel" name="PixelExperience-Devices/kernel_xiaomi_begonia.git" remote="github" revision="thirteen" />
+<project path="vendor/xiaomi/begonia" name="PixelExperience-Devices/vendor_xiaomi_begonia.git" remote="github" revision="thirteen" />
  
 </manifest>
