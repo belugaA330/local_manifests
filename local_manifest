@@ -2,8 +2,9 @@
 <manifest>
 
  <!-- Trees -->
-<project path="device/xiaomi/begonia" name="PixelExperience-Devices/device_xiaomi_begonia.git" remote="github" revision="thirteen" />
-<project path="device/xiaomi/begonia-kernel" name="PixelExperience-Devices/kernel_xiaomi_begonia.git" remote="github" revision="thirteen" />
-<project path="vendor/xiaomi/begonia" name="PixelExperience-Devices/vendor_xiaomi_begonia.git" remote="github" revision="thirteen" />
+ <project path="device/redmi/begonia" name="https://github.com/begonia-dev/android_device_redmi_begonia" remote="github" revision="lineage-18.1" />
+ <project path="device/redmi/begonia/Helio-G90T" name=https://github.com/begonia-dev/android_device_redmi_begonia/blob/13.0/BoardConfig.mk" remote="github" revision="lineage-18.1" />
+ <project path="vendor/redmi/begonia" name="https://github.com/begonia-dev/android_device_redmi_begonia/blob/13.0/vendor.prop" remote="github" revision="master" />
+ <project path="kernel/redmi/begonia" name="https://github.com/Lehkeda/android_device_xiaomi_begonia/blob/lineage-16/kernel" remote="github" revision="lineage-18.1" />
  
 </manifest>
