@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+ <remote name="github"
+          fetch="https://github.com" /> 
  <!-- Trees -->
- <project path="device/redmi/begonia" name="https://github.com/begonia-dev/android_device_redmi_begonia" remote="github" revision="lineage-18.1" />
- <project path="device/redmi/begonia/Helio-G90T" name=https://github.com/begonia-dev/android_device_redmi_begonia/blob/13.0/BoardConfig.mk" remote="github" revision="lineage-18.1" />
- <project path="vendor/redmi/begonia" name="https://github.com/begonia-dev/android_device_redmi_begonia/blob/13.0/vendor.prop" remote="github" revision="master" />
- <project path="kernel/redmi/begonia" name="https://github.com/Lehkeda/android_device_xiaomi_begonia/blob/lineage-16/kernel" remote="github" revision="lineage-18.1" />
- 
+ <project path="device/redmi/begonia" name="begonia-dev/android_device_redmi_begonia.git" remote="github" revision="13.0" clone-depth="1" />
+ <project path="vendor/redmi/begonia" name="begonia-dev/android_vendor_redmi_begonia.git" remote="github" revision="13.0" clone-depth="1" />
+ <project path="kernel/redmi/begonia" name="begonia-dev/android_kernel_xiaomi_mt6785" remote="github" revision="13.0" clone-depth="1" />
+
 </manifest>
