@@ -11,5 +11,6 @@
  <project path="kernel/xiaomi/mt6785" name="begonia-dev/android_kernel_xiaomi_mt6785" remote="github1" revision="13.0" />
  <project path="device/mediatek/sepolicy" name="begonia-dev/android_device_mediatek_sepolicy" remote="github1" revision="13.0" />
  <project path="vendor/redmi/begonia-ims" name="begonia-dev/android_vendor_redmi_begonia-ims" remote="github1" revision="13.0" />
+ <project path="device/hardware/mediatek" name="begonia-dev/android_hardware_mediatek" remote="github1" revision="13.0" />
   
 </manifest>
