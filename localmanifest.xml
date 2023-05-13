@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Tracking -->
-  <remote name="github1" fetch="https://github.com"/>
+  <remote name="github1" fetch="https://github.com/aaravmujawdia"/>
 
 
 <!-- Trees -->
