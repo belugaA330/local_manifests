@@ -2,15 +2,19 @@
 <manifest>
 
 <!-- Tracking -->
-  <remote name="github1" fetch="https://github.com/aaravmujawdia"/>
-
-
+ <remote name="github1" fetch="https://github.com/aaravmujawdia"/>
+ <remote name="github2" fetch="https://github.com/begonia-dev"/>
+ <remote name="github3" fetch="https://github.com/kdrag0n"/>
+ <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  
 <!-- Trees -->
- <project path="device/redmi/begonia" name="aaravmujawdia/android_device_redmi_begonia" remote="github1" revision="13.0" />
- <project path="vendor/redmi/begonia" name="begonia-dev/android_vendor_redmi_begonia" remote="github1" revision="13.0" />
- <project path="kernel/xiaomi/mt6785" name="begonia-dev/android_kernel_xiaomi_mt6785" remote="github1" revision="13.0" />
- <project path="device/mediatek/sepolicy" name="begonia-dev/android_device_mediatek_sepolicy" remote="github1" revision="13.0" />
- <project path="vendor/redmi/begonia-ims" name="begonia-dev/android_vendor_redmi_begonia-ims" remote="github1" revision="13.0" />
- <project path="hardware/mediatek" name="begonia-dev/android_hardware_mediatek" remote="github1" revision="13.0" />
+ <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="github1" revision="13.0" clone-depth="1" />
+ <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="github2" revision="13.0" clone-depth="1" />
+ <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="github2" revision="13.0" clone-depth="1" />
+ <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="github2" revision="13.0" clone-depth="1" />
+ <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="github2" revision="13.0" clone-depth="1" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="github2" revision="13.0" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="github3" revision="master" clone-depth="1" />
   
 </manifest>
