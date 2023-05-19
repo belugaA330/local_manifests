@@ -6,7 +6,7 @@
  <remote name="github2" fetch="https://github.com/begonia-dev"/>
  <remote name="github3" fetch="https://github.com/kdrag0n"/>
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
- <remote name="github4" fetch="https://github.com/Trinity-ROMS"
+ <remote name="github4" fetch="https://github.com/Trinity-ROMS"/>
   
 <!-- Trees -->
  <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="github1" revision="13.0" clone-depth="1" />
