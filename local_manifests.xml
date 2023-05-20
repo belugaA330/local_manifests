@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Tracking -->
- <remote name="github1" fetch="https://github.com/aaravmujawdia"/>
+ <remote name="aarav" fetch="https://github.com/aaravmujawdia"/>
  <remote name="github2" fetch="https://github.com/begonia-dev"/>
  <remote name="github3" fetch="https://github.com/kdrag0n"/>
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
