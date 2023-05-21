@@ -9,7 +9,7 @@
   
 <!-- Trees -->
  <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="ysl" revision="13" clone-depth="1" />
- <project path="vendor/xiaomi/ysl" name="android_vendor_redmi_ysl" remote="ysl" revision="13" clone-depth="1" />
+ <project path="vendor/xiaomi/ysl" name="android_vendor_xiaomi_ysl" remote="ysl" revision="13" clone-depth="1" />
  <project path="kernel/xiaomi/msm8953-common" name="android_kernel_xiaomi_msm8953-common" remote="ysl" revision="13" clone-depth="1" />
  
 </manifest>
