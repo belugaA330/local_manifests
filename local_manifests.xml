@@ -17,5 +17,6 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="github3" revision="master" clone-depth="1" />
  <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="github" revision="thirteen" clone-depth="1" />
+ <project path="android/packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="sai" revision="tiramisu" clone-depth="1" />
  
 </manifest>
