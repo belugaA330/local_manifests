@@ -5,7 +5,7 @@
  <remote name="github1" fetch="https://github.com"/>
  <remote name="beluga" fetch="https://github.com/belugaA330"/>
  <remote name="ysl" fetch="https://github.com/bananadroid-devices"/>
- <remote name="kp" fetch="https://gitlab.com/belugaA330"/>
+ <remote name="beluga" fetch="https://gitlab.com/belugaA330"/>
 
 <!-- Trees -->
  <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="github" revision="crdroid" clone-depth="1" />
