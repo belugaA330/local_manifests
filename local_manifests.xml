@@ -3,14 +3,14 @@
 
 <!-- Tracking -->
  <remote name="github1" fetch="https://github.com"/>
- <remote name="krishna" fetch="https://github.com/krishnaspeace"/>
+ <remote name="beluga" fetch="https://github.com/belugaA330"/>
  <remote name="ysl" fetch="https://github.com/bananadroid-devices"/>
- <remote name="kp" fetch="https://gitlab.com/krishnaspeace"/>
+ <remote name="kp" fetch="https://gitlab.com/belugaA330"/>
 
 <!-- Trees -->
- <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="krishna" revision="crdroid" clone-depth="1" />
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_ysl" remote="krishna" revision="lineage-20" clone-depth="1" />
- <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="krishna" revision="lineage-20" clone-depth="1" />
- <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="krishna" revision="lineage-20" clone-depth="1" />
+ <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="github" revision="crdroid" clone-depth="1" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_ysl" remote="github" revision="lineage-20" clone-depth="1" />
+ <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="github" revision="lineage-20" clone-depth="1" />
+ <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="github" revision="lineage-20" clone-depth="1" />
  
 </manifest>
